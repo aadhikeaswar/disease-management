@@ -1,0 +1,15 @@
+.Response_box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: start;
+    margin-top: 30px;
+    align-items: center;
+   
+}
+.txt_area{
+    width: 80%;
+    height: 50%;
+    resize: none;
+}

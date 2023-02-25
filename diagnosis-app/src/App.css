@@ -3,7 +3,7 @@
   width: 100%;
   text-align: center;
   display: grid;
-  grid-template-rows: 10% 90%; 
+  grid-template-rows: 10% 80%; 
   background: black;
 }
 
