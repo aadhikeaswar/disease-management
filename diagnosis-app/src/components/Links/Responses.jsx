@@ -5,13 +5,14 @@ import Response_box from "../RESPONSE_BOX/Response_box";
 import "./Responses.css";
 
 function Responses({ data }) {
+  let response = JSON.parse(data.choices[0].text)
+  console.log(response)
   return (
     <div className="Responses">
-      <Response_box />
-      <div className="secondary_boxes">
-        <Link_box />
-        <Prescription_box />
-      </div>
+      <Response_box diseases={response.diseases}/>
+      
+        <Link_box links={response.articles}/>
+        <Prescription_box medicines={response.medicines}/>
     </div>
   );
 }

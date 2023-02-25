@@ -4,7 +4,7 @@ import Responses from "../components/Links/Responses";
 import { useState } from "react";
 
 function Askgpt_page() {
-  const [Response, setResponse] = useState(true);
+  const [Response, setResponse] = useState(null);
   return <>{Response ? <Responses data = {Response}/> : <Gpt_prompt setResponse={e=>setResponse(e)}/>}</>; 
 }
 

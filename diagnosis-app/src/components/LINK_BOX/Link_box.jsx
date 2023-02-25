@@ -1,10 +1,18 @@
-import React from 'react'
-import "./Link_box.css"
+import React from "react";
+import "./Link_box.css";
 
-function Link_box() {
+function Link_box({ links }) {
   return (
-    <div className='Link_box'>Link_box</div>
-  )
+    <div className="Link_box">
+      <ul>
+        {links.map((link) => (
+          <li>
+            <a href={ link }> {link}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
-export default Link_box
+export default Link_box;
