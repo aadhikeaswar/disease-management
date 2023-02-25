@@ -3,7 +3,7 @@ import React from 'react'
 function Prescription_page() {
   return (
     <div>
-      <
+      
     </div>
   )
 }
