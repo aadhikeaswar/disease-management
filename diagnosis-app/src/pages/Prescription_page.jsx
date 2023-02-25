@@ -2,7 +2,9 @@ import React from 'react'
 
 function Prescription_page() {
   return (
-    <div>Prescription_page</div>
+    <div>
+      <
+    </div>
   )
 }
 
