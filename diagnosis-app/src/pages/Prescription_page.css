@@ -1,0 +1,15 @@
+.submit_btn{
+    margin-top: 5px;
+    font-weight: bold;
+    width: 10%;
+    outline: none;
+    background-color: grey;
+    border : none;
+    border-radius: 5px;
+    margin: 1vh;
+}
+
+.input{
+    width : 25%;
+    margin : 1vh;
+}

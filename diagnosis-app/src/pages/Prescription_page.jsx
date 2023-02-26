@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import "./Prescription_page.css"
 function Prescription_page() {
   const [input_name, setName] = useState("Enter Name");
   const [input_dosage, setDosage] = useState("Enter Dosage");
@@ -17,7 +18,7 @@ function Prescription_page() {
     }
   }
    let prescription_list = prescriptions.map((prescription) =>
-    <li>
+    <li className='prescriptionBox'>
       Name : {prescription.name}
       <br/>
       Dosage : {prescription.dosage}
@@ -27,12 +28,20 @@ function Prescription_page() {
   );
   return (
     <div>
+      <ul>
         {prescription_list}
+      </ul>
         <div>
-          <input type='text' name='Name' value={input_name} onChange={(e)=>setName(e.target.value)}/>
-          <input type='text' name='Dosage' value={input_dosage} onChange={(e)=>setDosage(e.target.value)}/>
-          <input type='text' name='Frequency' value={input_frequency} onChange={e=>setFrequency(e.target.value)}/>
-          <input type="submit" onClick={addPrescription}></input>
+          <div>
+            <input type='text' name='Name' value={input_name} onChange={(e)=>setName(e.target.value)} className='input'/>
+          </div>
+          <div>
+            <input type='text' name='Dosage' value={input_dosage} onChange={(e)=>setDosage(e.target.value)}className='input'/>
+          </div>
+          <div>
+            <input type='text' name='Frequency' value={input_frequency} onChange={e=>setFrequency(e.target.value)}className='input'/>
+          </div>
+          <input type="submit" onClick={addPrescription} className='submit_btn' value="Add Prescription"></input>
         </div>
     </div>
   )
