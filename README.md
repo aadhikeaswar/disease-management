@@ -14,9 +14,4 @@ The front-end of this app is built using React, hosted on Vercel, and this is fo
 
 ## *How to run this application*
 
-Change the directory to  `diagnosis-app` (found in the `front-end` branch). Then, run the following commands:
-
-```
-npm install
-npm start
-```
+Visit the application deployed with vercel
