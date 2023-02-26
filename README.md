@@ -13,7 +13,6 @@ This application also keeps track of their current prescriptions to remind them 
 The front-end of this app is built using React, hosted on Vercel. This connects to an API that we created that makes use of OpenAI's Da Vinci Model to retrieve information from the Internet. The back-end is built using Flask and hosted on Microsoft Azure.
 
 ## *How to run this application*
-___ 
 
 Change the directory to  `diagnosis-app`. Then, run the following commands:
 
