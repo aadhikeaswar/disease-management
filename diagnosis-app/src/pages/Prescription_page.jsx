@@ -27,8 +27,8 @@ function Prescription_page() {
     </li>
   );
   return (
-    <div>
-      <ul>
+    <div name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, minimal-ui, user-scalable=no" >
+      <ul className='prescriptionList'>
         {prescription_list}
       </ul>
         <div>
@@ -41,7 +41,7 @@ function Prescription_page() {
           <div>
             <input type='text' name='Frequency' value={input_frequency} onChange={e=>setFrequency(e.target.value)}className='input'/>
           </div>
-          <input type="submit" onClick={addPrescription} className='submit_btn' value="Add Prescription"></input>
+          <button type="submit" onClick={addPrescription} className='submit_btn'>Add Prescription</button>
         </div>
     </div>
   )
