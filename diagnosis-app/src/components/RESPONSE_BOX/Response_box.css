@@ -1,12 +1,14 @@
 .Response_box{
-    
     height: 100%;
-    width: 100%;
-    
-   
+    width: 30%;
 }
-.txt_area{
-    width: 80%;
-    height: 50%;
-    resize: none;
+
+.style_box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 15px;
+    border-color: purple;
+    outline: solid;
+       
 }

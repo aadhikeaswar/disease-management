@@ -1,5 +1,21 @@
+
 .Link_box{
-    width: 80%;
-    height: 40%;
-  
+    margin: 20px;
+    width: fit-content;
+    height: 100%;
+    font-size: 15px;
+    align-self: center;
+    justify-self: center;
+}
+.style_box{
+    padding: 2%;
+    display: flex;
+    overflow: scroll;
+    justify-content: start;
+    align-items: center;
+    border-radius: 15px;
+    border-color: purple;
+    outline: solid;
+   
+    height: 40%;    
 }
