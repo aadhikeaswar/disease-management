@@ -1,10 +1,5 @@
 # **Diagnostic Medicine Web Application**
 
-<br>
-
-## *Overview*
-___ 
-
 This program is a web application that allows users to receive an initial diagnosis of illnesses they might have, based on the symptoms that they enter into the application.
 
 <br> 
