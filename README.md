@@ -14,4 +14,4 @@ The front-end of this app is built using React, hosted on Vercel, and this is fo
 
 ## *How to run this application*
 
-Visit the application deployed with vercel
+Visit the [application deployed with vercel](https://disease-management-ukpf.vercel.app/).
