@@ -9,7 +9,7 @@ This program is a web application that allows users to receive an initial diagno
 
 <br> 
 
-<img src="diagnosis.jpg" alt="Diagnosis" width = "400" height = "200">
+<img src="diagnosis.jpg" alt="Diagnosis" width = "800" height = "400">
 
 <br>
 
