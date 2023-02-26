@@ -1,0 +1,15 @@
+.Prescription_box{
+    height: 100%;
+    width: 30%;
+    
+
+}
+.style_box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 15px;
+    border-color: purple;
+    outline: solid;
+    height: 40%;
+}
