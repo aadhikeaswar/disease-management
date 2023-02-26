@@ -22,8 +22,11 @@ The front-end of this app is built using React, hosted on Vercel. This connects 
 ## *How to run this application*
 ___ 
 
+1. Change the directory to  `diagnosis-app`.
 
-1. Install react script using the command `npm install react-scripts`.
-2. Change the directory to  `diagnosis-app`.
-3. Run the following `npm start`.
+Run the following commands:
 
+```
+npm install
+npm start
+```
