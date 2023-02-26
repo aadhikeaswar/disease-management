@@ -15,6 +15,7 @@ form{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     font-size: 20px;
+    color: black;
 }
 .submit_btn{
     margin-top: 5px;
